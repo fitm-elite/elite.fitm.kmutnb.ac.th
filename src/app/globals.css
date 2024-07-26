@@ -25,3 +25,7 @@ body {
         text-wrap: balance;
     }
 }
+
+::selection {
+    background: #7e7e7e7d;
+}
