@@ -45,10 +45,7 @@ export const metadata: Metadata = {
         url: "https://elite.fitm.kmutnb.ac.th",
         title: "FITM Elite - Are you tired of the monotonous classroom setting that fails to ignite your passion?",
         description: "Group established for software development and technology research from King's Mongkut University of North Bangkok Prachinburi Campus",
-        siteName: "FITM Elite",
-        images: [{
-            url: "https://scontent.fbkk5-8.fna.fbcdn.net/v/t39.30808-6/385874758_1033172004786039_1443834279538836909_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=2285d6&_nc_ohc=GAh1gwvXtvYQ7kNvgHw8PEL&_nc_ht=scontent.fbkk5-8.fna&oh=00_AYBnSu_HRzR5Vzx6jZ2Zkrxv8VCGKxo6rRJhYKMxmpwgHA&oe=66A9A3D7"
-        }],
+        siteName: "FITM Elite"
     },
 };
 
