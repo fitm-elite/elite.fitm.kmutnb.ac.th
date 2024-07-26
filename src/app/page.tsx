@@ -78,7 +78,7 @@ export default function Home() {
                         href="https://www.facebook.com/groups/fitmelite/"
                         target="_blank"
 
-                        className="relative w-full h-48"
+                        className="relative w-full h-48 rounded-lg overflow-hidden"
                     >
                         <Image
                             alt="Assoc. Prof. Anirach Mingkhawn writing about their research."
@@ -101,7 +101,7 @@ export default function Home() {
                         href="https://www.facebook.com/FITM.KMUTNB"
                         target="_blank"
 
-                        className="relative w-full h-48"
+                        className="relative w-full h-48 rounded-lg overflow-hidden"
                     >
                         <Image
                             alt="Faculty of Industrial and Technology Management"
