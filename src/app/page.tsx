@@ -35,7 +35,8 @@ export default function Home() {
                     "relative",
                     "p-4 w-auto h-auto rounded-md",
                     "flex flex-col justify-start items-center",
-                    "min-w-[480px] max-w-min bg-neutral-900 z-50",
+                    "min-w-[360px] max-w-min bg-neutral-900 z-50",
+                    "sm:min-w-[480px]",
                     "overflow-hidden"
                 )}
             >
@@ -46,10 +47,10 @@ export default function Home() {
                     target="_blank"
                     className={cn(
                         "mb-6 group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in",
-                        "hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800 z-10"
+                        "hover:cursor-pointer border-white/5 bg-neutral-900 hover:bg-neutral-800 z-10"
                     )}
                 >
-                    <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
+                    <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:duration-300 hover:text-neutral-400">
                         <span>✨ Introducing our Github</span>
                         <IconArrowRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                     </AnimatedShinyText>

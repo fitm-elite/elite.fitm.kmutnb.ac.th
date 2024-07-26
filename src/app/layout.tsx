@@ -54,7 +54,7 @@ export default function RootLayout({
 }: Readonly<React.PropsWithChildren>) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={`${inter.className}`}>{children}</body>
         </html>
     );
 }
